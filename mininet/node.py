@@ -764,7 +764,7 @@ class Docker ( Host ):
                      'dns': [],
                      'ipc_mode': None,
                      'devices': [],
-                     'cap_add': ['net_admin'],  # we need this to allow mininet network setup
+                     'cap_add': ['net_admin','net_raw', 'sys_admin'],  # we need this to allow mininet network setup
                      'storage_opt': None,
                      'sysctls': {},
                      'shm_size': '64mb',

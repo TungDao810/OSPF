@@ -1,0 +1,59 @@
+r1: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r1/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r1: update resources {}
+r2: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r2/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r2: update resources {}
+r3: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r3/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r3: update resources {}
+r4: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r4/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r4: update resources {}
+r5: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r5/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r5: update resources {}
+r6: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r6/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r6: update resources {}
+r7: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r7/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r7: update resources {}
+r8: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r8/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r8: update resources {}
+r9: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r9/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r9: update resources {}
+r10: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r10/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r10: update resources {}
+r11: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r11/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r11: update resources {}
+r12: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r12/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r12: update resources {}
+r13: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r13/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r13: update resources {}
+r14: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r14/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r14: update resources {}
+r15: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r15/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r15: update resources {}
+r16: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r16/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r16: update resources {}
+r17: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r17/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r17: update resources {}
+r18: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r18/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r18: update resources {}
+r19: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r19/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r19: update resources {}
+r20: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r20/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r20: update resources {}
+r21: kwargs {'ip': None, 'volumes': ['/home/tungdao/Mininet/Digital_routing/Router_config/configs/r21/frr:/etc/frr'], 'cap_add': ['NET_ADMIN', 'SYS_ADMIN', 'net_admin']}
+r21: update resources {}
+Traceback (most recent call last):
+  File "/home/tungdao/Mininet/Digital_routing/network_config/Custom_topo.py", line 117, in <module>
+    run()
+  File "/home/tungdao/Mininet/Digital_routing/network_config/Custom_topo.py", line 44, in run
+    net.addLink(s1, r['1'], intfName1='s1-eth1', intfName='r1-eth0')
+  File "/home/tungdao/containernet/mininet/net.py", line 449, in addLink
+    link = cls( node1, node2, **options )
+  File "/home/tungdao/containernet/mininet/link.py", line 580, in __init__
+    Link.__init__( self, *args, **kwargs)
+  File "/home/tungdao/containernet/mininet/link.py", line 468, in __init__
+    self.makeIntfPair( intfName1, intfName2, addr1, addr2,
+  File "/home/tungdao/containernet/mininet/link.py", line 513, in makeIntfPair
+    return makeIntfPair( intfname1, intfname2, addr1, addr2, node1, node2,
+  File "/home/tungdao/containernet/mininet/util.py", line 278, in makeIntfPair
+    raise Exception( "Error creating interface pair (%s,%s): %s " %
+Exception: Error creating interface pair (s1-eth1,r1-eth0): RTNETLINK answers: File exists
+ 
