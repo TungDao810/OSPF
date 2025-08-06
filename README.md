@@ -42,13 +42,14 @@ This project evaluates the performance of traditional **OSPF routing** and **Ope
 
 ### Demonstration
 
-![Network Topology].(results/3.png)
-![Network Testing].(results/5.png)
+![Network Topology](results/3.png)
+![Network Testing](results/5.png)
+
 ---
 
 ### 📉 Results
 
-![Packet Loss rate vs Packet size].(results/6.png)
-![Average Total Time vs High Packet size].{results/7.png)
-![Average Round Trip Time vs Hige Packe size].{results/8.png)
+![Packet Loss rate vs Packet size](results/6.png)
+![Average Total Time vs High Packet size](results/7.png)
+![Average Round Trip Time vs Hige Packet size](results/8.png)
 
