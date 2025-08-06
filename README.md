@@ -8,7 +8,7 @@ This project evaluates the performance of traditional **OSPF routing** and **Ope
 
 - Compare the routing efficiency of OSPF and OpenFlow.
 - Simulate real-world routing scenarios in private networks.
-- Measure and analyze metrics such as packet loss rate, Travel Round Trip time, and convergence time.
+- Measure and analyze metrics such as packet loss rate, Travel Round Trip time, and convergence time with respecto packet size.
 
 ---
 
@@ -38,5 +38,17 @@ This project evaluates the performance of traditional **OSPF routing** and **Ope
 - Mininet
 - FRRouting (for OSPF)
 
+---
 
+### Demonstration
+
+![Network Topology].(results/3.png)
+![Network Testing].(results/5.png)
+---
+
+### 📉 Results
+
+![Packet Loss rate vs Packet size].(results/6.png)
+![Average Total Time vs High Packet size].{results/7.png)
+![Average Round Trip Time vs Hige Packe size].{results/8.png)
 
