@@ -49,7 +49,7 @@ This project evaluates the performance of traditional **OSPF routing** and **Ope
 
 ### 📉 Results
 
-![Packet Loss rate vs Packet size](results/6.png)
-![Average Total Time vs High Packet size](results/7.png)
-![Average Round Trip Time vs Hige Packet size](results/8.png)
+![Packet Loss rate vs Packet size](results/8.png)
+![Average Total Time vs High Packet size](results/9.png)
+![Average Round Trip Time vs Hige Packet size](results/10.png)
 
